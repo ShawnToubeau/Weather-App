@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding-left: 21%;
+  padding-right: 21%;
+  background-color: #B8D8D8;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+#weather-location {
+  padding-bottom: 30px;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.main-component {
+  display: inline-block;
+  float: left;
+  padding: 20px;
+  background-color: #B2DDF7;
+  border: 10px solid #068D9D;
+}
+
+.main-component-temp {
+  float: right;
+  padding-left: 20px;
+}
+
+.second-component {
+  display: inline-block;
+  padding: 20px;
+  background-color: #B2DDF7;
+  float: right;
+  border: 10px solid #068D9D;
+}
+
+#weather-current {
+  font-size: 60px;
+}
+
+#weather-apparent {
+  font-size: 20px;
+}
+
+#weather-summary {
+  font-size: 35px;
+}
+
+.details {
+  font-size: 18px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 1060px) {
+  body {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .main-component, .main-componentl-temp, .second-component {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .float-center {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+  }
+
+  .float-center > .child {
+    position: relative;
+    left: 50%;
+  }
+
+  .clear {
+    clear: both;
+  }
+}

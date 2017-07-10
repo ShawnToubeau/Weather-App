@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</header>
+
+<body>
+  <p id="weather-location">--</p>
+
+  <div class="float-center">
+    <div class="main-component child">
+      <canvas id="icon" width="128" height="128"></canvas>
+      <div class="main-component-temp">
+        <button id="weather-current">--</button>
+        <p id="weather-apparent">--</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+    <div class="float-center">
+      <div class="second-component child">
+        <p id="weather-summary">--</p>
+        <div class="details">
+          <p id="percipitation">--</p>
+          <p id="humidity">--</p>
+          <p id="wind-speed">--</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script> -->
+    <script src="javascript.js"></script>
+    <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+</body>
+
+</html>
